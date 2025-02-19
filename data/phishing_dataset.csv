@@ -1,0 +1,11 @@
+url,domain_length,num_special_chars,has_https,is_phishing
+http://example.com,11,1,0,0
+https://secure-bank.com,15,1,1,0
+http://phishy-site.net,16,2,0,1
+https://trusted-site.org,16,1,1,0
+http://fake-login.com,14,2,0,1
+https://mybank.com,10,1,1,0
+http://scam-site.xyz,14,2,0,1
+https://safe-site.com,13,1,1,0
+http://malicious-page.com,19,2,0,1
+https://legit-site.org,14,1,1,0
