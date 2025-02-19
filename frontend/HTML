@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhishGuard - AI-Powered Phishing Detection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">PhishGuard</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/api-docs">API Documentation</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/blog">Blog</a>
+    </nav>
+    <div class="user-actions">
+      <a href="/login">Sign In</a>
+      <a href="/signup" class="btn-primary">Sign Up</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>PhishGuard: Your AI-Powered Phishing Detection Platform</h1>
+    <p>Scan URLs, detect phishing threats, and protect your users in real-time.</p>
+    <div class="cta-buttons">
+      <a href="/scan" class="btn-primary">Scan a URL Now</a>
+      <a href="/features" class="btn-secondary">Explore Features</a>
+    </div>
+  </section>
+
+  <!-- Key Features Section -->
+  <section class="features">
+    <h2>Why Choose PhishGuard?</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <h3>AI-Powered Detection</h3>
+        <p>Leverage advanced machine learning models to identify phishing threats.</p>
+      </div>
+      <div class="card">
+        <h3>Real-Time Scanning</h3>
+        <p>Get instant results with our lightning-fast scanning engine.</p>
+      </div>
+      <div class="card">
+        <h3>Developer-Friendly API</h3>
+        <p>Integrate PhishGuard into your applications with our RESTful API.</p>
+      </div>
+      <div class="card">
+        <h3>Threat Intelligence Dashboard</h3>
+        <p>Visualize and analyze phishing trends with our intuitive dashboard.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works">
+    <h2>How PhishGuard Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>1. Submit a URL</h3>
+        <p>Enter the URL you want to scan.</p>
+      </div>
+      <div class="step">
+        <h3>2. AI Analysis</h3>
+        <p>Our AI engine analyzes the URL for phishing patterns.</p>
+      </div>
+      <div class="step">
+        <h3>3. Get Results</h3>
+        <p>Receive a detailed report in seconds.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial-cards">
+      <div class="card">
+        <p>"PhishGuard has been a game-changer for our security team. Highly recommended!"</p>
+        <p>- User 1</p>
+      </div>
+      <div class="card">
+        <p>"The API is easy to integrate, and the results are incredibly accurate."</p>
+        <p>- User 2</p>
+      </div>
+      <div class="card">
+        <p>"The dashboard provides excellent insights into phishing trends."</p>
+        <p>- User 3</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call-to-Action Section -->
+  <section class="cta">
+    <h2>Ready to Protect Your Users?</h2>
+    <p>Sign up today and start scanning URLs for phishing threats.</p>
+    <div class="cta-buttons">
+      <a href="/signup" class="btn-primary">Get Started</a>
+      <a href="/contact" class="btn-secondary">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="quick-links">
+      <a href="/about">About Us</a>
+      <a href="/features">Features</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/blog">Blog</a>
+    </div>
+    <div class="social-media">
+      <a href="https://twitter.com/phishguard">Twitter</a>
+      <a href="https://linkedin.com/company/phishguard">LinkedIn</a>
+      <a href="https://github.com/phishguard">GitHub</a>
+    </div>
+    <div class="legal">
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </div>
+    <div class="copyright">
+      © 2023 PhishGuard. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
