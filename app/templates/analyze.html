@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyze - PhishGuardPro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">PhishGuardPro</div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/analyze">Analyze</a>
+            <a href="/resources">Resources</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Analysis Results</h1>
+        <p><strong>Input:</strong> {{ result.input }}</p>
+        <p><strong>Is Phishing:</strong> {{ result.is_phishing }}</p>
+        <p><strong>Details:</strong> {{ result.details }}</p>
+        <a href="/download-report" download>Download Report</a>
+    </main>
+    <footer>
+        <p>&copy; 2023 PhishGuardPro. All rights reserved.</p>
+    </footer>
+</body>
+</html>
