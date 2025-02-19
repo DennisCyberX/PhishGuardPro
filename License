@@ -1,0 +1,18 @@
+
+---
+
+## **Step 5: Hosting**
+- Deploy the app on **Heroku** or **AWS** for scalability.
+- Use **GitHub Actions** for CI/CD to automate testing and deployment.
+
+---
+
+## **Step 6: Next Steps**
+1. Train a robust phishing detection model using real-world datasets.
+2. Add user authentication for personalized reports.
+3. Integrate email alerts for detected phishing attempts.
+4. Create a Chrome extension for real-time URL analysis.
+
+---
+
+With this setup, **PhishGuardPro** will be well on its way to becoming the best anti-phishing platform in the world! Let me know if you need further assistance. 🚀
